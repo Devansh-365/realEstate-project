@@ -49,7 +49,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#demonstration">Demonstration</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -65,7 +65,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Devansh-365`, `realEstate-project`, `twitter_handle`, `linkedin_username`, `gmail`, `devanshtiwari365`, `realEstate-project`, `project_description`
+- Build a Real Estate “Rent a Property” web app with filtering mechanism. Allows you to filter properties on the basis of move-in date, price range, location and property type( house, appartment ..)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,12 +83,12 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Follow the instructions to set up the project on your local machine
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Install NodeJS LTS
+
 * npm
   ```sh
   npm install npm@latest -g
@@ -96,7 +96,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Fork the repo(required), a star is also appretiated but optional :P
 2. Clone the repo
    ```sh
    git clone https://github.com/Devansh-365/realEstate-project.git
@@ -105,9 +105,9 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Start the project
+   ```sh
+   npm run dev
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -115,11 +115,16 @@ This is an example of how to list things you need to use the software and how to
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Demonstration
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+![product-screenshoti]
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+|         Filter          |      Property Page       |
+| :---------------------: | :----------------------: |
+| ![product-screenshotii] | ![product-screenshotiii] |
+
+
+<br />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,10 +133,14 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [x] Add Navbar
+- [x] Add Search Filter
+    - [x] Add Location Menu
+    - [x] Add Date Menu
+    - [x] Add Property Menu
+    - [x] Add Price Range Menu
+- [x] Add Property List UI & database
+    - [x] Add property card
 
 See the [open issues](https://github.com/Devansh-365/realEstate-project/issues) for a full list of proposed features (and known issues).
 
@@ -169,7 +178,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - devanshtiwari365@gmail.com
+Your Name - devanshtiwari365@gmail.com
 
 Project Link: [https://github.com/Devansh-365/realEstate-project](https://github.com/Devansh-365/realEstate-project)
 
