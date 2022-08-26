@@ -19,15 +19,14 @@ const DateMenu = () => {
                 <div className='text-[15px] font-medium leading-tight'>{date}</div>
                 <div className='text-[13px]'>Choose move-in date</div>
                 </div>
-                {false ? (
+                {true ? (
                 <RiArrowUpSLine className='dropdown-icon-secondary' />
                 ) : (
                 <RiArrowDownSLine className='dropdown-icon-secondary' />
                 )}
             </Button>
       </MenuHandler>
-      <MenuList>
-        <MenuItem>
+      <MenuList  className='dropdown-menu'>
           {dates.map((date, index) => {
                 return (
                     <MenuItem
@@ -38,7 +37,6 @@ const DateMenu = () => {
                     </MenuItem>
                 );
             })}
-        </MenuItem>
       </MenuList>
     </Menu>
   )

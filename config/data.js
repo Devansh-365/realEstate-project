@@ -20,7 +20,7 @@ export const housesData = [
       price: '110000',
       agent: {
         image: Agent1,
-        name: 'Patricia Tullert',
+        name: 'Agent 1',
         phone: '0123 456 78910',
       },
     },
@@ -33,7 +33,6 @@ export const housesData = [
       image: House1,
       country: 'Canada',
       date: '2020-03-12',
-      date: '2020-03-12',
       address: 'Address 2',
       bedrooms: '6',
       bathrooms: '3',
@@ -42,7 +41,7 @@ export const housesData = [
       price: '140000',
       agent: {
         image: Agent1,
-        name: 'Daryl Hawker',
+        name: 'Agent 2',
         phone: '0123 456 78910',
       },
     },
@@ -63,7 +62,7 @@ export const housesData = [
       price: '170000',
       agent: {
         image: Agent1,
-        name: 'Amado Smith',
+        name: 'Agent 3',
         phone: '0123 456 78910',
       },
     },
@@ -84,7 +83,7 @@ export const housesData = [
       price: '200000',
       agent: {
         image: Agent1,
-        name: 'Kaitlyn Gonzalez',
+        name: 'Agent 4',
         phone: '0123 456 78910',
       },
     },
@@ -105,7 +104,7 @@ export const housesData = [
       price: '210000',
       agent: {
         image: Agent1,
-        name: 'Grover Robinson',
+        name: 'Agent 5',
         phone: '0123 456 78910',
       },
     },
@@ -126,7 +125,7 @@ export const housesData = [
       price: '220000',
       agent: {
         image: Agent1,
-        name: 'Karen Sorensen',
+        name: 'Agent 6',
         phone: '0123 456 78910',
       },
     },
@@ -147,7 +146,7 @@ export const housesData = [
       price: '20000',
       agent: {
         image: Agent1,
-        name: 'Jawhar Shamil Naser',
+        name: 'Agent 7',
         phone: '0123 456 78910',
       },
     },
@@ -168,7 +167,7 @@ export const housesData = [
       price: '30000',
       agent: {
         image: Agent1,
-        name: 'Juana Douglass',
+        name: 'Agent 8',
         phone: '0123 456 78910',
       },
     },
@@ -189,7 +188,7 @@ export const housesData = [
       price: '40000',
       agent: {
         image: Agent1,
-        name: 'Jerry Schenck',
+        name: 'Agent 9',
         phone: '0123 456 78910',
       },
     },
@@ -210,7 +209,7 @@ export const housesData = [
       price: '117000',
       agent: {
         image: Agent1,
-        name: 'Vera Levesque',
+        name: 'Agent 10',
         phone: '0123 456 78910',
       },
     },
@@ -231,7 +230,7 @@ export const housesData = [
       price: '145000',
       agent: {
         image: Agent1,
-        name: 'Sofia Gomes',
+        name: 'Agent 11',
         phone: '0123 456 78910',
       },
     },
@@ -252,7 +251,7 @@ export const housesData = [
       price: '139000',
       agent: {
         image: Agent1,
-        name: 'Raymond Hood',
+        name: 'Agent 12',
         phone: '0123 456 78910',
       },
     },
@@ -273,7 +272,7 @@ export const housesData = [
       price: '180000',
       agent: {
         image: Agent1,
-        name: 'Patricia Tullert',
+        name: 'Agent 13',
         phone: '0123 456 78910',
       },
     },
@@ -294,7 +293,7 @@ export const housesData = [
       price: '213000',
       agent: {
         image: Agent1,
-        name: 'Daryl Hawker',
+        name: 'Agent 14',
         phone: '0123 456 78910',
       },
     },
@@ -315,7 +314,7 @@ export const housesData = [
       price: '221000',
       agent: {
         image: Agent1,
-        name: 'Amado Smith',
+        name: 'Agent 15',
         phone: '0123 456 78910',
       },
     },
@@ -336,7 +335,7 @@ export const housesData = [
       price: '21000',
       agent: {
         image: Agent1,
-        name: 'Kaitlyn Gonzalez',
+        name: 'Agent 16',
         phone: '0123 456 78910',
       },
     },
@@ -357,7 +356,7 @@ export const housesData = [
       price: '32000',
       agent: {
         image: Agent1,
-        name: 'Grover Robinson',
+        name: 'Agent 17',
         phone: '0123 456 78910',
       },
     },
@@ -378,7 +377,7 @@ export const housesData = [
       price: '38000',
       agent: {
         image: Agent1,
-        name: 'Karen Sorensen',
+        name: 'Agent 18',
         phone: '0123 456 78910',
       },
     },

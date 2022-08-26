@@ -69,13 +69,11 @@ const HouseContextProvider = ({ children }) => {
     // get last string (price) and parse it to number
     const maxPrice = parseInt(price.split(' ')[2]);
 
-    const filteredDates = dates.filter(date => new Date(date) <= new Date());
-
     const newHouses = housesData.filter((house) => {
       const housePrice = parseInt(house.price);
       // all values are selected
       if (
-        house.date = date &&
+        house.date === date &&
         house.country === country &&
         house.type === property &&
         housePrice >= minPrice &&
@@ -106,17 +104,31 @@ const HouseContextProvider = ({ children }) => {
         return house.date === date;
       }
       // country and property is not default
-      if (!isDefault(country) && !isDefault(property) && isDefault(price)) {
+      if (!isDefault(country) && !isDefault(property) && isDefault(price) && isDefault(date)) {
         return house.country === country && house.type === property;
       }
+      // country and date is not default
+      if (!isDefault(country) && !isDefault(date) && isDefault(price) && isDefault(property)) {
+        return house.country === country && house.date === date;
+      }
+      // property and date is not default
+      if (!isDefault(property) && !isDefault(date) && isDefault(price) && isDefault(country)) {
+        return house.type === property && house.date === date;
+      }
+      // date and price is not default
+      if (isDefault(country) && isDefault(property) && !isDefault(price) && !isDefault(date)) {
+        if (housePrice >= minPrice && housePrice <= maxPrice) {
+          return house.date === date;
+        }
+      }
       // country and price is not default
-      if (!isDefault(country) && isDefault(property) && !isDefault(price)) {
+      if (!isDefault(country) && isDefault(property) && !isDefault(price) && isDefault(date)) {
         if (housePrice >= minPrice && housePrice <= maxPrice) {
           return house.country === country;
         }
       }
       // property and price is not default
-      if (isDefault(country) && !isDefault(property) && !isDefault(price)) {
+      if (isDefault(country) && !isDefault(property) && !isDefault(price) && isDefault(date)) {
         if (housePrice >= minPrice && housePrice <= maxPrice) {
           return house.type === property;
         }
